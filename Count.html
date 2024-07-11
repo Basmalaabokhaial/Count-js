@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    
+     <input type="text" id="txt" placeholder="Enter Your Name">
+    <input type="button" onclick="document.getElementById('length').innerHTML = b('txt')" value="Get Lenght">
+    <p id="length"></p> 
+
+    <script>
+       
+function b(txt){
+            let text1 = document.getElementById(txt).value;
+            let length = text1.length;
+            return length;
+        }
+
+    </script>
+</body>
+</html>
+
+
+
